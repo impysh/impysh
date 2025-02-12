@@ -24,6 +24,21 @@ p {
     font-size: 15px
 }
 
+.image-container {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+}
+
+.image-item {
+  text-align: center; 
+}
+
+.image-item img {
+  width: 200px;
+  height: auto;
+}
+
 /*
 nav -> html element
 navbar -> visual component that displays nav links
